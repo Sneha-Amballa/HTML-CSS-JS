@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+.container{
+    text-align: center;
+}
+span{
+    color: blue;
+}
+button{
+    background-color: rgb(208, 197, 225);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(216, 190, 190);
+    cursor: pointer;
+    transition:background-color 0.3s;
+}
+button:hover{
+    background-color: rgb(174, 174, 177);
+}

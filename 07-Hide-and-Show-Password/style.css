@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2d6da;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .password-container {
+    position: relative;
+    width: 300px;
+  }
+  
+  #password {
+    width: 100%;
+    padding: 12px 45px 12px 12px;
+    font-size: 16px;
+    border: 1px solid #726d6d;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+  }
+  
+  .toggle-password:hover {
+    opacity: 0.7;
+  }
+  

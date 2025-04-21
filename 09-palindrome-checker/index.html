@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Palindrome Checker</div>
+        <div class="word">
+            <input type="text" id="inputText" placeholder="Enter the text or number" onClick="testcase()">
+            <div class="checking">
+                <button onClick="CheckPalindrome()">Check</button>
+                <input type="reset" class="reset_button" onClick="resetText()">
+            </div>
+        </div>
+        <div class="rev_word">
+            <div class="rev_text">
+                Reverse String
+            </div>
+            <div class="rev_text_word">
+            </div>
+        </div>
+        <div class="palindrome">
+            <div class="check_word">
+                Is the number/word a palindrome?
+            </div>
+            <div class="yes_no">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

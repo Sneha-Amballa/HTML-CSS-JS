@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="result">0</div>
+        <div class="numbers">
+            <button class="num_button" id="clear" onClick="clears()">CLR</button>
+            <button class="num_button" id="delete" onClick="deleteLast()"> DEL</button>
+            <button class="num_button" id="modulo" onClick="operator('%')">%</button>
+            <button class="num_button" id="division" onClick="operator('/')">/</button>
+            
+            <button class="num_button" id="num_7" onClick="numInput('7')">7</button>
+            <button class="num_button" id="num_8" onClick="numInput('8')">8</button>
+            <button class="num_button" id="num_9" onClick="numInput('9')">9</button>
+            <button class="num_button" id="multiply" onClick="operator('*')">*</button>
+            
+            <button class="num_button" id="num_4" onClick="numInput('4')">4</button>
+            <button class="num_button" id="num_5" onClick="numInput('5')">5</button>
+            <button class="num_button" id="num_6" onClick="numInput('6')">6</button>
+            <button class="num_button" id="subtraction" onClick="operator('-')">-</button>
+            
+            <button class="num_button" id="num_1" onClick="numInput('1')">1</button>
+            <button class="num_button" id="num_2" onClick="numInput('2')">2</button>
+            <button class="num_button" id="num_3" onClick="numInput('3')">3</button>
+            <button class="num_button" id="addition" onClick="operator('+')">+</button>
+            
+            <button class="num_button" id="num_0" onClick="numInput('0')">0</button>
+            <button class="num_button" id="point" onClick="point()">.</button>
+            <button class="num_button" id="equal" onClick="equal()">=</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

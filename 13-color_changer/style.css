@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.color_btn{
+    height: 60px;
+    width: 200px;
+    background-color: #bcd3eb;
+    color: rgb(69, 51, 51);
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 18px;
+}
+.color_btn:hover{
+    background-color: #a4c9f1;
+}

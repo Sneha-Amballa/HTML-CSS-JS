@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 500px;
+    width: 800px;
+}
+h1{
+    color: #574964;
+    font-size: 40px;
+}
+textarea{
+    margin: 30px;
+    height: 150px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+p {
+    margin-left: 320px;
+    font-size: 17px;
+    font-weight: bold;
+}

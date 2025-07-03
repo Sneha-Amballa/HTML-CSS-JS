@@ -1,0 +1,115 @@
+html {
+    background-color: #ef98b4;
+}
+
+.heading {
+    text-align: center;
+    color: #9132ae;
+}
+
+.rock_paper_scissors {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.rock_paper_scissors img {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.rock_paper_scissors img:hover {
+    height: 215px;
+    width: 215px;
+}
+
+.player {
+    font-size: x-large;
+    text-align: center;
+    font-family: cursive;
+    color: #932246;
+    margin-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+
+button {
+    background-color: #f1e4e8;
+    height: 34px;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: #e4d7db;
+    height: 35px;
+    width: 122px;
+}
+
+/* Help Overlay - Initially Hidden */
+#helpOverlay {
+    display: none;  /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.help-overlay img {
+    border-radius: 15%;
+    height: 500px;
+    width: 500px;
+    display: none;
+}
+.close_button {
+    background-color: white;
+    border: 1px solid black;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.close_button:hover {
+    background-color: lightgray;
+    height: 31px;
+    width: 81px;
+}
+.score_board{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px;
+}
+.score{
+    background-color: #f4e8ec;
+    height: 100px;
+    width: 160px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #61106f;
+    font-size: large;
+    padding: 5px;
+}

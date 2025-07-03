@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(8, 8, 8, 0.2);
+    padding: 10px;
+}
+.result{
+    height: 120px;
+    width: 95%;
+    background-color: rgb(105, 104, 104);
+    border-radius: 9px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+    font-size: 2em;
+    padding-right: 20px;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 2px;
+    border: 3px solid rgb(154, 149, 149);
+    border-radius: 5px;
+    height: 455px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+.num_button{
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    color: black;
+    font-size: x-large;
+    font-weight: 550;
+}
+#delete{
+    font-size: large;
+}
+#clear{
+    font-size: large;
+}
+#equal{
+    grid-column: span 2;
+    width: 180px;
+}
+.num_button:hover {
+    background-color: rgba(206, 199, 199, 0.7);
+    box-shadow: 0px 4px 6px rgba(7, 6, 6, 0.2);
+}
+.num_button:focus {
+    outline: 2px solid #3d3f41; 
+}

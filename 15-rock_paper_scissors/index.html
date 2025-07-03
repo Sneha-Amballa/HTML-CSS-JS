@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="heading">Let's Play</h2>
+    <h1 class="heading">ROCK-PAPER-SCISSORS</h1>
+    <div class="rock_paper_scissors">
+        <img src="rock.jpg" alt="This is rock" onClick="rock()">
+        <img src="paper.jpg" alt="This is paper" onClick="paper()">
+        <img src="scissors.jpg" alt="This is Scissors" onClick="scissors()">
+        <div class="buttons">
+            <button onClick="editnames()">Edit Name</button>
+            <button onClick="Help()">Help</button>
+        </div>
+    </div>
+    <div class="help-overlay" id="helpOverlay">
+        <button class="close_button" onClick="backToGame()">&#10060 BACK</button>
+        <img id="rulesImage" src="rules.jpg" alt="Game Rules">
+    </div>
+    <div class="score_board">
+        <div class="score player_score">
+            <h3 class="score_player">0</h3>
+            <h3 class="name">Player Score</h3>
+        </div>
+        <div class="score computer_score">
+            <h3 class="score_computer">0</h3>
+            <h3>Computer Score</h3>
+        </div>
+    </div>
+    <div class="player">
+        <p class="player_chose"></p>
+        <p class="computer_chose"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

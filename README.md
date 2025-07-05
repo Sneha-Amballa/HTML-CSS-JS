@@ -28,6 +28,7 @@ Some of these projects are inspired by a structured Udemy course, and others are
 | 16 | Dice Game                      | Simulates rolling dice with images              |
 | 17 | Text Character Counter         | Counts characters in a live textarea            |
 | 18 | Tic Tac Toe                    | 2-player game with win/draw logic               |
+| 19 | Split Bill App                 | Calculates tip and splits bill fairly           |
 
 ---
 
